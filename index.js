@@ -42,7 +42,7 @@ function removeFirstKitten() {
   //copies kittens array into newArray
   var newArray = [...kittens]
   //calls unshift, which removes 1st kitten (name) on the copy
-  newArray.unshift(name)
+  newArray.shift(name)
   //returns the copy
   return newArray
 }
