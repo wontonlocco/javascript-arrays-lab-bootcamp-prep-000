@@ -39,8 +39,9 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  
+  //copies kittens array into newArray
   var newArray = [...kittens]
+  //calls unshift, which removes first kitten (name)
   newArray.unshift(name)
   return newArray
 }
