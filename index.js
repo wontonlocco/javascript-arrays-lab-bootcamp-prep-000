@@ -41,7 +41,7 @@ function removeLastKitten() {
 function removeFirstKitten() {
   //copies kittens array into newArray
   var newArray = [...kittens]
-  //calls unshift, which removes 1st kitten (name) on the copy, use shift method to catch the deleted item in an array.
+  //calls unshift, which removes 1st kitten (name) on the copy, use shift method to catch the deleted item in an array and return it
   newArray.shift(name)
   //returns the copy
   return newArray
