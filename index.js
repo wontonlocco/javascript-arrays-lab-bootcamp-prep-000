@@ -37,3 +37,10 @@ function removeLastKitten() {
   newArray.pop(name)
   return newArray
 }
+
+function removeFirstKitten() {
+  
+  var newArray = [...kittens]
+  newArray.unshift(name)
+  return newArray
+}
